@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.stepper {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stepper-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.step-number {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  color: black;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.step-line {
+  height: 2.5rem;
+  width: 4px;
+  position: absolute;
+  background-color: rgb(0, 180, 245);
+  top: 2.5rem;
+}
+.active {
+  background-color: red;
+  color: white;
+}
+button {
+  background-color: blue;
+  width: 4rem;
+  height: 2rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
